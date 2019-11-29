@@ -1,0 +1,16 @@
+.bot{
+  width: 49%;
+  height: 96%;
+  display: block;
+  text-align: left;
+  background-color: #0100AC;
+  color: #fff;
+  float: left;
+  margin: 0.5%;
+  font-family: 'consolas';
+}
+
+.bot .chat{
+  height: 60%;
+  overflow-y: hidden;
+}
