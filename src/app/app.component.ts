@@ -58,13 +58,13 @@ export class AppComponent {
   /*Metodo de lectura*/
   read(text: string){
     if(this.init == true){
-      this.speechService.setVoice("Samantha Compact");
+      this.speechService.setVoice("Samantha");
       this.init = false;
     }else{
       if(this.order == true){
-        this.speechService.setVoice("Samantha Compact");
+        this.speechService.setVoice("Samantha");
       }else{
-        this.speechService.setVoice("Alex Compact");
+        this.speechService.setVoice("Alex");
       }
     }
     this.speechService.read(text).subscribe((data) => {//Se invoca servicio de lectura del mensaje
